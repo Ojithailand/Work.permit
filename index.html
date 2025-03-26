@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Permit Application Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-[800px]">
+        <h2 class="text-2xl font-bold text-center mb-6">ใบขออนุญาตทำงาน (Work Permit Form)</h2>
+
+        <form>
+            <!-- Application Date -->
+            <h2 class="text-L font-bold mb-4 text-center">ผู้ขออนุญาตกรอก (Application to fill in)</h2>
+                        
+            <h3 class="text-lg font-semibold mb-2">Applicant Information</h3>
+
+            <!-- Name -->
+            <div class="flex gap-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-full p-2 border rounded mb-2">
+                <input type="text" placeholder="แผนก" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เบอร์โทร" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+            <!-- Email & Phone -->
+            <div class="flex gap-2">
+                <input type="text" placeholder="ขออนุญาตนำผู้รับเหมาชื่อ" class="w-full p-2 border rounded mb-2">
+                <input type="text" placeholder="ทะเบียนเลขที่" class="w-1/2 p-2 border rounded mb-2">
+            </div>
+            <div class="flex gap-2">
+            <input type="text" placeholder="เข้ามาปฏิบัติงานที่แผนก/พื้นที่" class="w-full p-2 border rounded mb-2">
+            </div>
+                        <div class="grid grid-cols-2 gap-4">
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> สถานที่อับอากาศ
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> การทำงานบนที่สูง
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> งานเกี่ยวกับไฟฟ้า
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> สารเคมีอันตราย
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> งานเชื่อม ตัด และซ่อมแซมเครื่องจักร
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> งานที่อาจให้เกิดความร้อน / ประกายไฟ
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> งานเกี่ยวกับก๊าซอันตราย / กัมมันตรังสี
+                </label>
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2"> งานอื่น ๆ (ระบุ): <input type="text" class="border-b ml-2 w-full">
+                </label>
+            </div>
+
+             <div class="flex gap-2">
+                <label class="block">วันที่ปฏิบัติงาน:</label>
+                <input type="text" class="w-full p-2 border rounded mb-2" placeholder="วัน/เดือน/ปี">
+                <label class="block">เริ่มตั้งแต่เวลา:</label>
+                    <input type="text" class="w-full p-2 border rounded mb-2" placeholder="เวลาเริ่ม">
+                    <label class="block">สิ้นสุดเวลา:</label>
+                    <input type="text" class="w-full p-2 border rounded mb-2" placeholder="เวลาสิ้นสุด">
+            </div>
+            <br>         
+               <!-- Contractor -->
+               <h2 class="text-L font-bold mb-4">สำหรับผู้รับเหมากรอกรายละเอียด (Contractor to fill in the details)</h2>
+           
+            
+            <h3 class="text-lg font-semibold mb-2">Contractor Information</h3>
+               <!-- Name -->
+               <div class="flex gap-2">
+                <input type="text" placeholder="ชื่อผู้รับเหมาที่ควบคุมงาน" class="w-full p-2 border rounded mb-2">
+                <input type="text" placeholder="บริษัท" class="w-1/2 p-2 border rounded mb-2">
+                
+            </div>
+            <!-- Email & Phone -->
+            <div class="flex gap-2">
+                <input type="text" placeholder="เบอร์โทรศัพท์ติดต่อ" class="w-full p-2 border rounded mb-2">
+                <input type="text" placeholder="จำนวน" class="w-1/2 p-2 border rounded mb-2">
+            </div>
+             <div class="flex gap-2">
+                <input type="text" placeholder="ลำดับ" class="w-1/6 p-2 border rounded mb-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เลขบัตรประชาชน" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="ตำแหน่ง" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+            <div class="flex gap-2">
+                <input type="text" placeholder="ลำดับ" class="w-1/6 p-2 border rounded mb-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เลขบัตรประชาชน" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="ตำแหน่ง" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+            <div class="flex gap-2">
+                <input type="text" placeholder="ลำดับ" class="w-1/6 p-2 border rounded mb-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เลขบัตรประชาชน" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="ตำแหน่ง" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+            <div class="flex gap-2">
+                <input type="text" placeholder="ลำดับ" class="w-1/6 p-2 border rounded mb-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เลขบัตรประชาชน" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="ตำแหน่ง" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+            <div class="flex gap-2">
+                <input type="text" placeholder="ลำดับ" class="w-1/6 p-2 border rounded mb-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เลขบัตรประชาชน" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="ตำแหน่ง" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+            <div class="flex gap-2">
+                <input type="text" placeholder="ลำดับ" class="w-1/6 p-2 border rounded mb-2">
+                <input type="text" placeholder="ชื่อ-นามสกุล" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="เลขบัตรประชาชน" class="w-1/2 p-2 border rounded mb-2">
+                <input type="text" placeholder="ตำแหน่ง" class="w-1/4 p-2 border rounded mb-2">
+            </div>
+                                    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Equipment Table</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-6 bg-gray-100 flex justify-center items-center min-h-screen">
+    
+            <h2 class="text-L font-bold mb-4 text-center">รายละเอียดขั้นตอนการทำงาน และเครื่องมือหรืออุปกรณ์ที่ใช้</h2>
+        
+        <table class="w-full border border-black">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="w-full border border-black">
+                        อธิบายขั้นตอนการทำงาน (เช่น ตัด เชื่อม เจียร)
+                    </th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <!-- แถวข้อมูล -->
+                <tr>
+                    <td class="w-full border border-black"><input type="text" class="w-full"></td>
+                </tr>
+                <tr>
+                    <td class="w-full border border-black"><input type="text" class="w-full"></td>
+                </tr>
+                <tr>
+                    <td class="w-full border border-black"><input type="text" class="w-full"></td>
+                </tr>
+                <tr>
+                    <td class="w-full border border-black"><input type="text" class="w-full"></td>
+                </tr>
+                <tr>
+                    <td class="w-full border border-black"><input type="text" class="w-full"></td>
+                </tr>
+                <tr>
+                    <td class="w-full border border-black"><input type="text" class="w-full"></td>
+                </tr>
+   
+            </tbody>
+        </table>
+        <table class="w-full border border-black">
+            <thead>
+                <tr class="bg-gray-200">
+                    
+                    <th class="border border-black px-4 py-2 w-1/1">
+                        รายการอุปกรณ์ที่ใช้
+                    </th>
+                  
+                    <th class="border border-black px-4 py-2 w-1/6">
+                        จำนวนอุปกรณ์ก่อนเริ่มงาน(ชิ้น)
+                    </th>
+                    <th class="border border-black px-4 py-2 w-1/6">
+                        จำนวนอุปกรณ์หลังเลิกงาน(ชิ้น)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- แถวข้อมูล -->
+                <tr>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2 text-center"><input type="number" class="w-full"></td>
+            
+           
+                </tr>
+                <tr>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2 text-center"><input type="number" class="w-full"></td>
+     
+             
+                </tr>
+                <tr>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2 text-center"><input type="number" class="w-full"></td>
+         
+                </tr>
+                <tr>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2 text-center"><input type="number" class="w-full"></td>
+         
+                </tr>
+                <tr>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2 text-center"><input type="number" class="w-full"></td>
+         
+                </tr>
+                <tr>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2"><input type="text" class="w-full"></td>
+                    <td class="border border-black px-4 py-2 text-center"><input type="number" class="w-full"></td>
+         
+                </tr>
+            </tbody>
+        </table>
+        <Br>
+        <h2 class="text-L font-bold mb-4 text-center">ผู้ตรวจสอบ (Inspector) </h2>
+
+         <table class="w-full border border-black">
+            <thead>
+                <tr class="bg-gray-200">
+                    <th class="w-full border border-black">
+                        การดำเนินการตรวจสอบและอนุญาตให้ทำงาน
+                    </th>
+                   
+                </tr>
+            </thead>
+             </table>
+            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มขออนุญาตทำงาน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            border: 1px solid #000;
+            padding: 20px;
+        }
+        .section {
+            background: #ccc;
+            padding: 10px;
+            font-weight: bold;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .checkbox-group label {
+            width: 50%;
+            padding: 5px 0;
+        }
+        .dotted-input {
+            border: none;
+            border-bottom: 1px dashed #000;
+            width: 100px;
+            outline: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+             <table class="w-full border border-black">
+            <thead>
+                
+                    <th class="w-full border border-black">
+                        ความเสี่ยงที่อาจเกิดจากการทำงานของผู้รับเหมา
+                    </th>
+                   
+                
+            </thead>
+             </table>
+        
+        <div class="checkbox-group">
+            <label><input type="checkbox"> สารไวไฟ / ประกายไฟ / ความร้อนสูง</label>
+            <label><input type="checkbox"> สารกัดกร่อน / สารพิษ / ไอระเหย</label>
+            <label><input type="checkbox"> การระเบิด</label>
+            <label><input type="checkbox"> กระแสไฟฟ้ารั่วไหล/ลัดวงจร</label>
+            <label><input type="checkbox"> อับอากาศ/การขาดอากาศหายใจ</label>
+            <label><input type="checkbox"> ตกจากที่สูง</label>
+            <label><input type="checkbox"> หนีบ/บด/ตัด/กระแทก</label>
+            <label><input type="checkbox"> การแตกตัวของไอออน/รังสี</label>
+            <label><input type="checkbox"> อื่นๆ: <input type="text" class="dotted-input"></label>
+        </div>
+        
+ <table class="w-full border border-black">
+            <thead>
+                
+                    <th class="w-full border border-black">
+                        มาตรการป้องกันอันตรายในงาน
+                    </th>
+                   
+                
+            </thead>
+             </table>
+        
+        <div class="checkbox-group">
+            <label><input type="checkbox"> การตัดพลังงานจากเครื่องจักร/อุปกรณ์</label>
+            <label><input type="checkbox"> การปิดกั้นบริเวณ หรือพื้นที่</label>
+            <label><input type="checkbox"> การเตือนอันตราย/ป้ายข้อความ</label>
+            <label><input type="checkbox"> ถังดับเพลิง/ถังน้ำ/ผ้ากันไฟ</label>
+            <label><input type="checkbox"> เครื่องมือสื่อสาร</label>
+            <label><input type="checkbox"> ผู้ช่วยเหลือ/อุปกรณ์ช่วยเหลือ/อุปกรณ์กู้ภัย</label>
+            <label><input type="checkbox"> อุปกรณ์ให้แสงสว่าง</label>
+            <label><input type="checkbox"> อุปกรณ์ระบายอากาศ</label>
+            <label><input type="checkbox"> อุปกรณ์ปฐมพยาบาล/อุปกรณ์ SCBA</label>
+           <label><input type="checkbox"> อื่นๆ: <input type="text" class="dotted-input"></label>
+        </div>
+        <table class="w-full border border-black">
+            <thead>
+                
+                    <th class="w-full border border-black">
+                        รายการอุปกรณ์ความปลอดภัยส่วนบุคคล (PPE)
+                    </th>
+                   
+                
+            </thead>
+             </table>
+        
+        <div class="checkbox-group">
+            <label><input type="checkbox"> หมวกนิรภัย / หมวกกันชน</label>
+            <label><input type="checkbox"> เข็มขัดกันตก/สายช่วยชีวิต</label>
+            <label><input type="checkbox"> แว่นตานิรภัย/กระบังหน้าใส/กระบังหน้าเชื่อม</label>
+            <label><input type="checkbox"> ชุดป้องกันอันตรายของร่างกาย</label>
+            <label><input type="checkbox"> ผ้าปิดจมูก/หน้ากากกรองอากาศ</label>
+            <label><input type="checkbox"> รองเท้านิรภัย</label>
+            <label><input type="checkbox"> ยางอุดหู/ที่ครอบหู</label>
+            <label><input type="checkbox"> ถุงมือผ้า/ถุงมือยาง/ถุงมือหนัง</label>
+            <label><input type="checkbox"> อื่นๆ: <input type="text" class="dotted-input"></label>
+        </div>
+    </div>
+</body>
+<Br>
+        <h2 class="text-L font-bold mb-4 text-center">ลงนาม (Signature)</h2>
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Work Permit Form</title>
+</head>
+<body class="p-8">
+    <div class="border border-gray-900 p-4">
+        <h2 class="text-xl font-bold text-center mb-4">การลงชื่อเพื่อขอเปิดใบอนุญาตทำงาน</h2>
+        
+        <div class="grid grid-cols-4 border border-gray-900 text-center font-bold">
+            <div class="border border-gray-900 p-2">ผู้รับเหมา</div>
+            <div class="border border-gray-900 p-2">ผู้ควบคุมงาน หรือเจ้าของงาน</div>
+            <div class="border border-gray-900 p-2">เจ้าของพื้นที่</div>
+            <div class="border border-gray-900 p-2">ผู้อนุญาต (จป.วิชาชีพ / จป.บริหาร)</div>
+        </div>
+
+        <div class="grid grid-cols-4 border border-gray-900 text-center">
+            <div class="border border-gray-900 p-4">
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-full text-center"></p>
+                <p>วันที่ <input type="date" class="border-b border-gray-600 w-full text-center"></p>
+                <p>เวลา <input type="time" class="border-b border-gray-600 w-full text-center"></p>
+            </div>
+            <div class="border border-gray-900 p-4">
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-full text-center"></p>
+                <p>วันที่ <input type="date" class="border-b border-gray-600 w-full text-center"></p>
+                <p>เวลา <input type="time" class="border-b border-gray-600 w-full text-center"></p>
+            </div>
+            <div class="border border-gray-900 p-4">
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-full text-center"></p>
+                <p>วันที่ <input type="date" class="border-b border-gray-600 w-full text-center"></p>
+                <p>เวลา <input type="time" class="border-b border-gray-600 w-full text-center"></p>
+            </div>
+            <div class="border border-gray-900 p-4">
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-full text-center"></p>
+                <p>วันที่ <input type="date" class="border-b border-gray-600 w-full text-center"></p>
+                <p>เวลา <input type="time" class="border-b border-gray-600 w-full text-center"></p>
+            </div>
+        </div>
+
+        <p class="text-sm mt-2">หมายเหตุ:ในกรณีเข้าทำงานในวันหยุด ให้เจ้าของพื้นที่ลงชื่อแทนในช่องของ จป.วิชาชีพ / จป.บริหาร</p>
+
+       <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Work Permit Closure</title>
+</head>
+<body class="p-8">
+    <div class="border border-gray-900">
+        <!-- หัวข้อ -->
+        <div class="grid grid-cols-2 border border-gray-900 font-bold text-center">
+            <div class="border border-gray-900 p-2">ข้อเสนอแนะ (Suggestion)</div>
+            <div class="border border-gray-900 p-2">การขอปิดใบอนุญาตทำงาน (Work Permit Closure)</div>
+        </div>
+
+        <!-- แถว: ช่องข้อเสนอแนะรวมเป็นช่องเดียว -->
+        <div class="grid grid-cols-1 border border-gray-900">
+            <textarea class="w-full h-24 border border-gray-400 p-2"></textarea>
+        </div>
+
+        <!-- แถว: ผู้รับเหมา -->
+        <div class="grid grid-cols-2 border border-gray-900">
+            <div class="border border-gray-900 p-4 font-bold">ผู้รับเหมา</div>
+            <div class="border border-gray-900 p-4">
+               
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-40 text-center"> 
+                วันที่ <input type="date" class="border-b border-gray-600 text-center"> 
+                เวลา <input type="time" class="border-b border-gray-600 text-center"></p>
+            </div>
+        </div>
+
+        <!-- แถว: ผู้ควบคุมงาน / เจ้าของงาน -->
+        <div class="grid grid-cols-2 border border-gray-900">
+            <div class="border border-gray-900 p-4 font-bold">ผู้ควบคุมงาน / เจ้าของงาน</div>
+            <div class="border border-gray-900 p-4">
+                
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-40 text-center"> 
+                วันที่ <input type="date" class="border-b border-gray-600 text-center"> 
+                เวลา <input type="time" class="border-b border-gray-600 text-center"></p>
+            </div>
+        </div>
+
+        <!-- แถว: เจ้าของพื้นที่ -->
+        <div class="grid grid-cols-2 border border-gray-900">
+            <div class="border border-gray-900 p-4 font-bold">เจ้าของพื้นที่</div>
+            <div class="border border-gray-900 p-4">
+              
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-40 text-center"> 
+                วันที่ <input type="date" class="border-b border-gray-600 text-center"> 
+                เวลา <input type="time" class="border-b border-gray-600 text-center"></p>
+            </div>
+        </div>
+
+        <!-- แถว: จป.วิชาชีพ / จป.บริหาร -->
+        <div class="grid grid-cols-2 border border-gray-900">
+            <div class="border border-gray-900 p-4 font-bold">จป.วิชาชีพ / จป.บริหาร</div>
+            <div class="border border-gray-900 p-4">
+               
+                <p>ลงชื่อ <input type="text" class="border-b border-gray-600 w-40 text-center"> 
+                วันที่ <input type="date" class="border-b border-gray-600 text-center"> 
+                เวลา <input type="time" class="border-b border-gray-600 text-center"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+  <button class="mt-6 w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">
+            บันทึกข้อมูล (Submit)
+        </button>
+</html>
+        
