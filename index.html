@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<form action="https://formsubmit.co/ojithailand@gmail.com" method="POST">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        // โหลด EmailJS
+        (function() {
+            emailjs.init('user_YOUR_USER_ID'); // Ojipaperthailand
+        })();
+
+        function sendEmail(event) {
+            event.preventDefault(); // หยุดการส่งฟอร์มปกติ
+
+            // ส่งฟอร์มไปยัง EmailJS
+            emailjs.sendForm('service_vvobj9f', 'template_v6977zd', this)
+                .then(function(response) {
+                    alert('Success!', response);
+                }, function(error) {
+                    alert('Failed...', error);
+                });
+        }
+    </script>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form onsubmit="sendEmail(event)">
+    
+       
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -452,7 +480,9 @@
         </div>
     </div>
 </body>
-        <button type="บันทึกข้อมูล (Submit)">Send</button>
-        </form>
+         <br>
+        <input type="บันทึกข้อมูล (Submit)" value="Send">
+    </form>
+</body>
 </html>
         
